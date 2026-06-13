@@ -1,0 +1,39 @@
+[
+  {
+    "title": "React",
+    "imageSrc": "assets/react.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "assets/java.svg"
+  },
+  {
+    "title": "Spring Boot",
+    "imageSrc": "/assets/springBoot.png"
+  },
+  {
+    "title": "Hibernate",
+    "imageSrc": "assets/hibernate.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "assets/sql.svg"
+  },
+  {
+    "title": "Javascript",
+    "imageSrc": "assets/js.svg"
+  },
+
+  {
+    "title": "HTML",
+    "imageSrc": "assets/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "assets/css.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "assets/python.png"
+  }
+]

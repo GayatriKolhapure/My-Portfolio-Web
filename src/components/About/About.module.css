@@ -1,0 +1,175 @@
+@import "../../vars.css";
+
+/* 🔹 MAIN CONTAINER */
+.container {
+    position: relative;
+    background-color: rgba(12, 12, 12, 0.6);
+    border-radius: 15px;
+    padding: 73px;
+    margin-top: 129px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* 🔹 SECTION TITLES */
+.title,
+.educationHeading {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.educationHeading {
+    margin-bottom: 15px;
+}
+
+/* 🔹 FLEX WRAPPER TO PREVENT OVERLAP */
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.aboutItems {
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 48%;
+    flex: 1;
+    /* ⭐ Responsive width */
+}
+
+.aboutItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 25px;
+    border-radius: 20px;
+    background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0) 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+
+.aboutItem:hover {
+    background-size: 100% 100%;
+}
+
+.aboutItem p {
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+
+.educationBox {
+    flex: 1;
+    /* ⭐ Sits next to About */
+    max-width: 48%;
+}
+
+.educationItems {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: var(--color-text);
+}
+
+.educationItem {
+    list-style-type: none;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0) 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+
+.educationItem:hover {
+    background-size: 100% 100%;
+}
+
+.educationText h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.educationText p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .title,
+    .educationHeading {
+        font-size: 30px;
+    }
+
+    .aboutItem p {
+        font-size: 20px;
+    }
+
+    .educationText h3 {
+        font-size: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 830px) {
+    .content {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 25px;
+    }
+
+    .aboutItems,
+    .educationBox {
+        max-width: 100%;
+        /* Full width on small screens */
+    }
+
+    .container {
+        /* background-color: transparent; */
+        padding: 30px 10px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .title,
+    .educationHeading {
+        text-align: center;
+        font-size: 26px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .title,
+    .educationHeading {
+        font-size: 22px;
+    }
+
+    .aboutItem p {
+        font-size: 16px;
+    }
+
+    .educationText h3 {
+        font-size: 18px;
+    }
+
+    .educationText p {
+        font-size: 14px;
+    }
+}

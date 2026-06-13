@@ -1,0 +1,76 @@
+@import "../../vars.css";
+
+/* MAIN FOOTER CONTAINER */
+.container {
+    padding: 60px 10%;
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+}
+
+/* HEADER TEXT */
+.text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.text h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.text p {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+/* CONTACT LIST */
+.links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+/* EACH ROW (icon + text) */
+.link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* FIX ICON SIZE */
+.link img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+/* TEXT + LINKS */
+.link p,
+.link a {
+    font-size: 20px;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+/* HOVER EFFECT */
+.link a:hover {
+    color: var(--color-secondary);
+    transition: 0.3s ease;
+}
+
+/* RESPONSIVE */
+@media (max-width: 480px) {
+    .link img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .link p,
+    .link a {
+        font-size: 16px;
+    }
+}

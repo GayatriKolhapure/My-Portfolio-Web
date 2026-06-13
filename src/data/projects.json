@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Plan My Trip",
+    "imageSrc": "assets/project.png",
+    "description": "PlanMyTrip – A full-stack travel planning platform built with Spring Boot and MySQL, helping users organize trips, explore destinations, and manage travel plans through a secure and responsive interface.",
+    "skills": ["Spring Boot", "MySql", "JavaScript","HTML","CSS"],
+    "source": "https://github.com/GayatriKolhapure/PlanMyTrip"
+  },
+  {
+    "title": "Flowers Shopping web",
+    "imageSrc": "assets/project.png",
+    "description": "Blossom Cart – A modern and responsive flower shopping website developed using HTML, CSS, and JavaScript, designed to provide a seamless product exploration and shopping experience.",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "source": "https://github.com/GayatriKolhapure/Flower-Shop-Website-app"
+  },
+   {
+    "title": "Recipe Finder Web App",
+    "imageSrc": "assets/project.png",
+    "description": "Recipe Finder – A simple and interactive recipe discovery application that enables users to search for recipes and view cooking details through a clean and responsive web interface.",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "source": "https://github.com/GayatriKolhapure/Recipe-Finder-WebApp/tree/main"
+  }
+]
