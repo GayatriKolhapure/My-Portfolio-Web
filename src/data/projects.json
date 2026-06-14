@@ -15,7 +15,7 @@
   },
    {
     "title": "Recipe Finder Web App",
-    "imageSrc": "assets/recipe-finder-web.png",
+    "imageSrc": "assets/recipe_finder_web.png",
     "description": "Recipe Finder – A simple and interactive recipe discovery application that enables users to search for recipes and view cooking details through a clean and responsive web interface.",
     "skills": ["HTML", "CSS", "Javascript"],
     "source": "https://github.com/GayatriKolhapure/Recipe-Finder-WebApp/tree/main"
