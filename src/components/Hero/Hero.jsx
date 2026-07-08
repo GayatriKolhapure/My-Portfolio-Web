@@ -16,7 +16,7 @@ export const Hero = () => {
            principles. Experienced in developing full-stack web 
           applications and eager to contribute to innovative software solutions.
         </p>
-        <a href="assets/GayatriKolhapure-Resume(3).pdf" download className={styles.downloadBtn}>
+        <a href="assets\GayatriKolhapure-Resume (3).pdf" download className={styles.downloadBtn}>
           Download Resume
         </a>
       </div>
